@@ -1,0 +1,66 @@
+body {
+  color: #fcfcfc;
+  font: 18px 'Kiwi Maru', serif;
+  background: #ccc;
+}
+
+.container {
+  width: 70%;
+  margin: 10px auto;
+}
+
+/* Navigation */
+#navbar {
+  display: block;
+  height: 40px;
+  background: #333;
+}
+
+#navbar a {
+  color: #fff;
+  display: inline-block;
+  height: 40px;
+  line-height: 37px;
+  padding: 0 15px;
+}
+
+#navbar a.active,
+#navbar a:hover {
+  background: rgb(75, 75, 75);
+}
+
+/* Grid Layout styling */
+
+#main {
+  display: block;
+  overflow: hidden;
+  width: 100%;
+  margin: 0 auto;
+  min-height: 475px;
+}
+
+#main li {
+  float: left;
+  height: 96px;
+  margin: 6px;
+  position: relative;
+  width: 125px;
+  box-shadow: 0 0 5px #000;
+  -moz-box-shadow: 0 0 5px #000;
+  -webkit-box-shadow: 0 0 5px #000;
+}
+
+#main ul {
+  overflow: hidden;
+}
+
+#main ul.hidden {
+  display: none;
+}
+
+footer {
+  text-align: center;
+  color: #333;
+  font-size: 16px;
+  font-weight: bold;
+}
