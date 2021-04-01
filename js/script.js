@@ -27,7 +27,7 @@ $(document).ready(function () {
   $.each(itemsByTags, function (k, v) {
     createList(k, v);
   });
-  
+
   // Click Handler
   $('#navbar a').live('click', function (e) {
     var link = $(this);
@@ -59,4 +59,7 @@ $(document).ready(function () {
       }
     }).appendTo('#navbar');
   }
+
+  // Call Fancy Box
+  $(".fancybox").fancybox();
 });

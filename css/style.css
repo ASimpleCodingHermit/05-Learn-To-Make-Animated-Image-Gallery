@@ -12,14 +12,12 @@ body {
 /* Navigation */
 #navbar {
   display: block;
-  height: 40px;
   background: #333;
 }
 
 #navbar a {
   color: #fff;
   display: inline-block;
-  height: 40px;
   line-height: 37px;
   padding: 0 15px;
 }
